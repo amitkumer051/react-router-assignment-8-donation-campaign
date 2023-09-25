@@ -2,20 +2,42 @@ import { NavLink } from "react-router-dom";
 
 const Header = () => {
     return (
-        <div className="flex justify-between">
-            <div className="font-bold">
-                <h2> Donation Campaign</h2>
+        <div className="flex items-center md:justify-between lg:justify-between py-4">
+            <div className="">
+                <img className="w-40" src="https://i.ibb.co/S3RjXzK/Logo.png" alt="" />
             </div>
             <nav>
-                <ul>
-                    <NavLink
-                        to="/messages"
-                        className={({ isActive, isPending }) =>
-                            isPending ? "pending" : isActive ? "active" : ""
-                        }
-                    >
-                        Messages
-                    </NavLink>;
+                <ul className="gap-5 flex">
+                    <li>
+                        <NavLink
+                            to="/"
+                            className={({ isActive, isPending }) =>
+                                isPending ? "pending" : isActive ? "text-[#FF444A] underline" : ""
+                            }
+                        >
+                            Home
+                        </NavLink>
+                    </li>
+                    <li>
+                        <NavLink
+                            to="/donation"
+                            className={({ isActive, isPending }) =>
+                                isPending ? "pending" : isActive ? "text-[#FF444A] underline" : ""
+                            }
+                        >
+                            Donation
+                        </NavLink>
+                    </li>
+                    <li>
+                        <NavLink
+                            to="/statistics"
+                            className={({ isActive, isPending }) =>
+                                isPending ? "pending" : isActive ? "text-[#FF444A] underline" : ""
+                            }
+                        >
+                            Statistics
+                        </NavLink>
+                    </li>
                 </ul>
             </nav>
         </div>

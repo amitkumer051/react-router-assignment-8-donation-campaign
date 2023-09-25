@@ -3,9 +3,9 @@ import Header from "../Header/Header";
 
 const MainLayout = () => {
     return (
-        <div>
-           <Header></Header>
-           <Outlet></Outlet>
+        <div className="container mx-auto">
+            <Header></Header>
+            <Outlet></Outlet>
         </div>
     );
 };
