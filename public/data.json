@@ -3,84 +3,109 @@
         "id": 1,
         "img": "https://i.ibb.co/hmQbMv3/water.jpg",
         "title": "Clean water for children",
-        "color": "#FF0000",
-        "category": "Electronics"
+        "bg_color": "#0052ff26",
+        "font_color":"#0052FF",
+        "font_bg":"#0052ff33",
+        "category": "Health"
     },
     {
         "id": 2,
         "img": "https://i.ibb.co/KyW8SPB/education.jpg",
         "title": "Good education",
-        "color": "#0000FF",
-        "category": "Clothing"
+        "bg_color": "#ff444a26",
+        "font_color":"#FF444A",
+        "font_bg":"#ff444a33",
+        "category": "Education"
     },
     {
         "id": 3,
         "img": "https://i.ibb.co/5K8j49q/clothing.jpg",
         "title": "Used Clothing Drive",
-        "color": "#00FF00",
-        "category": "Home and Garden"
+        "bg_color": "#79c23f26",
+        "font_color":"#79C23F",
+        "font_bg":"#79c23f33",
+        "category": "Clothing"
     },
     {
         "id": 4,
         "img": "https://i.ibb.co/sJ5bmzq/food.jpg",
         "title": "Better Food for Everyone",
-        "color": "#000000",
-        "category": "Electronics"
+        "bg_color": "#f8714726",
+        "font_color":"#F87147",
+        "font_bg":"#f8714733",
+        "category": "Food"
     },
     {
         "id": 5,
         "img": "https://i.ibb.co/sJ5bmzq/food.jpg",
-        "title": "Better Food for Everyone",
-        "color": "#FFFFFF",
-        "category": "Toys and Games"
+        "title": "Clean water for childrene",
+        "bg_color": "#ff444a26",
+        "font_color":"#FF444A",
+        "font_bg":"#ff444a33",
+        "category": "Food"
+        
     },
     {
         "id": 6,
         "img": "https://i.ibb.co/5K8j49q/clothing.jpg",
-        "title": "Used Clothing Drive",
-        "color": "#FFFF00",
-        "category": "Electronics"
+        "title": "Good education",
+        "bg_color": "#ff444a26",
+        "font_color":"#FF444A",
+        "font_bg":"#ff444a33",
+        "category": "Education"
     },
     {
         "id": 7,
         "img": "https://i.ibb.co/KyW8SPB/education.jpg",
-        "title": "Good education",
-        "color": "#800080",
+        "title": "Used Clothing Drive",
+        "bg_color": "#79c23f26",
+        "font_color":"#79C23F",
+        "font_bg":"#79c23f33",
         "category": "Clothing"
     },
     {
         "id": 8,
         "img": "https://i.ibb.co/hmQbMv3/water.jpg",
-        "title": "Clean water for children",
-        "color": "#FFA500",
-        "category": "Home and Garden"
+        "title": "Better Food for Everyone",
+        "bg_color": "#0052ff26",
+        "font_color":"#0052FF",
+        "font_bg":"#0052ff33",
+        "category": "Health"
     },
     {
         "id": 9,
         "img": "https://i.ibb.co/hmQbMv3/water.jpg",
         "title": "Clean water for children",
-        "color": "#808080",
-        "category": "Electronics"
+        "bg_color": "#0052ff26",
+        "font_color":"#0052FF",
+        "font_bg":"#0052ff33",
+        "category": "Health"
     },
     {
         "id": 10,
         "img": "https://i.ibb.co/KyW8SPB/education.jpg",
         "title": "Good education",
-        "color": "#FFC0CB",
-        "category": "Toys and Games"
+        "bg_color": "#ff444a26",
+        "font_color":"#FF444A",
+        "font_bg":"#ff444a33",
+        "category": "Education"
     },
     {
         "id": 11,
         "img": "https://i.ibb.co/5K8j49q/clothing.jpg",
         "title": "Used Clothing Drive",
-        "color": "#A52A2A",
+        "bg_color": "#79c23f26",
+        "font_color":"#79C23F",
+        "font_bg":"#79c23f33",
         "category": "Clothing"
     },
     {
         "id": 12,
         "img": "https://i.ibb.co/sJ5bmzq/food.jpg",
         "title": "Better Food for Everyone",
-        "color": "#F5F5DC",
-        "category": "Home and Garden"
+        "bg_color": "#ff444a26",
+        "font_color":"#FF444A",
+        "font_bg":"#ff444a33",
+        "category": "Food"
     }
 ]
