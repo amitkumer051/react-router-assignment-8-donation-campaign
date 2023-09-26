@@ -2,37 +2,39 @@
 import swal from "sweetalert";
 
 const DonateCard = ({ card }) => {
-    const { id, img, title, font_color, overlay, description,donate } = card;
+    const { id, img, title, font_color, overlay, description, donate } = card;
+
     const handleAddToDonation = () => {
-        swal("Good job!", "Donation Successfull!", "success", {
-            button: "OK!",
-        });
         const addDonationItems = [];
-        const donationItems = JSON.parse(localStorage.getItem('donation'));
+
+        const donationItems = JSON.parse(localStorage.getItem("donation"));
+
         if (!donationItems) {
             addDonationItems.push(card);
             localStorage.setItem('donation', JSON.stringify(addDonationItems))
+            swal("Good job!", "Donation Successfull!", "success", { button: "OK!" });
         }
         else {
-            // const isExist = donationItems.find(card => card.id === id)
+            const isExist = donationItems.find(card => card.id === id)
 
-            // if (!isExist) {
+            if (!isExist) {
                 addDonationItems.push(...donationItems, card)
-                localStorage.setItem('donation', JSON.stringify(addDonationItems))
-            // }
-            // else {
-            //     return;
-            // }
+                localStorage.setItem("donation", JSON.stringify(addDonationItems))
+                swal("Good job!", "Donation Successfull!", "success", { button: "OK!" });
+            }
+            else {
+                swal("Error !", "No Duplicate!", { button: "OK!" });
+            }
         }
     }
 
     return (
-        <><div className=" mb-5 px-1">
+        <><div className=" mb-5">
             <img className="md:h-[440px] h-[440px] w-full  absolute container " src={img} alt="" />
             <div className=" relative flex items-end justify-start h-[440px] w-full">
                 <div style={{ background: overlay }} className="lg:w-full h-24 opacity-70  absolute container justify-end">
                 </div>
-                <button onClick={handleAddToDonation} style={{ background: font_color }} className="h-10 w-32 p-2 m-7 text-white font-semibold rounded text-xs relative">Donate {donate}</button>
+                <button onClick={handleAddToDonation} style={{ background: font_color }} className="h-10 w-32 p-2 m-7 text-white font-semibold text-sm rounded relative">Donate {donate}</button>
 
             </div>
         </div>

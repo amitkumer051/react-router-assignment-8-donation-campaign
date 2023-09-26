@@ -2,13 +2,12 @@ import { NavLink } from "react-router-dom";
 
 const Header = () => {
     return (
-        <div className="flex items-center justify-around lg:justify-between py-4 px-1">
-            <div className="">
-                <img className="lg:w-40 w-auto h-auto " src="https://i.ibb.co/S3RjXzK/Logo.png" alt="" />
+        <div className="lg:flex  mx-auto justify-center items-center lg:justify-between py-4 px-1 container lg:space-y-0 space-y-10">
+            <div>
+                <img className="lg:w-40  w-auto justify-center mx-auto" src="https://i.ibb.co/S3RjXzK/Logo.png" alt="" />
             </div>
             <nav>
-                <ul className="gap-5 flex">
-                    <li>
+                <ul className="gap-6 flex text-sm justify-center mx-auto text-center">
                         <NavLink
                             to="/"
                             className={({ isActive, isPending }) =>
@@ -17,8 +16,8 @@ const Header = () => {
                         >
                             Home
                         </NavLink>
-                    </li>
-                    <li>
+            
+          
                         <NavLink
                             to="/donation"
                             className={({ isActive, isPending }) =>
@@ -27,8 +26,8 @@ const Header = () => {
                         >
                             Donation
                         </NavLink>
-                    </li>
-                    <li>
+              
+              
                         <NavLink
                             to="/statistics"
                             className={({ isActive, isPending }) =>
@@ -37,7 +36,7 @@ const Header = () => {
                         >
                             Statistics
                         </NavLink>
-                    </li>
+                
                 </ul>
             </nav>
         </div>
