@@ -2,7 +2,6 @@
 
 import Card from "../Card/Card";
 const Cards = ({cards}) => {
-    // console.log(cards);
     return (
         <div className="grid lg:grid-cols-4 gap-6 mb-6  md:grid-cols-2 grid-cols-1 mt-10">
             {

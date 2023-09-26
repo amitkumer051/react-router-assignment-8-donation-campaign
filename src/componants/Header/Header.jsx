@@ -2,9 +2,9 @@ import { NavLink } from "react-router-dom";
 
 const Header = () => {
     return (
-        <div className="flex items-center md:justify-between lg:justify-between py-4">
+        <div className="flex items-center justify-around lg:justify-between py-4 px-1">
             <div className="">
-                <img className="w-40" src="https://i.ibb.co/S3RjXzK/Logo.png" alt="" />
+                <img className="lg:w-40 w-auto h-auto " src="https://i.ibb.co/S3RjXzK/Logo.png" alt="" />
             </div>
             <nav>
                 <ul className="gap-5 flex">

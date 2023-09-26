@@ -8,6 +8,7 @@
         "font_color":"#0052FF",
         "font_bg":"#0052ff33",
         "overlay":"#0b0b0b80",
+        "donate":"$290.00",
         "category": "Health"
     },
     {
@@ -19,6 +20,7 @@
         "font_color":"#FF444A",
         "font_bg":"#ff444a33",
         "overlay":"#0b0b0b80",
+        "donate":"$270.00",
         "category": "Education"
     },
     {
@@ -30,6 +32,7 @@
         "font_color":"#79C23F",
         "font_bg":"#79c23f33",
         "overlay":"#0b0b0b80",
+        "donate":"$280.00",
         "category": "Clothing"
     },
     {
@@ -41,6 +44,7 @@
         "font_color":"#F87147",
         "font_bg":"#f8714733",
         "overlay":"#0b0b0b80",
+        "donate":"$260.00",
         "category": "Food"
     },
     {
@@ -52,6 +56,7 @@
         "font_color":"#F87147",
         "font_bg":"#f8714733",
         "overlay":"#0b0b0b80",
+        "donate":"$260.00",
         "category": "Food"
     },
     {
@@ -63,6 +68,7 @@
         "font_color":"#79C23F",
         "font_bg":"#79c23f33",
         "overlay":"#0b0b0b80",
+        "donate":"$280.00",
         "category": "Clothing"
     },
     {
@@ -74,6 +80,7 @@
         "font_color":"#FF444A",
         "font_bg":"#ff444a33",
         "overlay":"#0b0b0b80",
+        "donate":"$270.00",
         "category": "Education"
     },
     {
@@ -85,6 +92,7 @@
         "font_color":"#0052FF",
         "font_bg":"#0052ff33",
         "overlay":"#0b0b0b80",
+        "donate":"$290.00",
         "category": "Health"
     },
     {
@@ -96,6 +104,7 @@
         "font_color":"#0052FF",
         "font_bg":"#0052ff33",
         "overlay":"#0b0b0b80",
+        "donate":"$290.00",
         "category": "Health"
     },
     {
@@ -107,6 +116,7 @@
         "font_color":"#FF444A",
         "font_bg":"#ff444a33",
         "overlay":"#0b0b0b80",
+        "donate":"$270.00",
         "category": "Education"
     },
     {
@@ -118,6 +128,7 @@
         "font_color":"#79C23F",
         "font_bg":"#79c23f33",
         "overlay":"#0b0b0b80",
+        "donate":"$280.00",
         "category": "Clothing"
     },
     {
@@ -129,6 +140,7 @@
         "font_color":"#FF444A",
         "font_bg":"#ff444a33",
         "overlay":"#0b0b0b80",
+        "donate":"$260.00",
         "category": "Food"
     }
 ]

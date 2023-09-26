@@ -6,7 +6,6 @@ const DetailsOfCards = () => {
     const [card,setCard]= useState([]);
     const {id} =useParams();
     const datas = useLoaderData();
-    console.log(id);
     useEffect(()=>{
         const findCard = datas.find(data => data.id == id)
         console.log(findCard);
