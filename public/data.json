@@ -3,109 +3,132 @@
         "id": 1,
         "img": "https://i.ibb.co/hmQbMv3/water.jpg",
         "title": "Clean water for children",
+        "description":"Clean water for children is a phrase that encapsulates a critical aspect of child well-being and global health. It refers to the provision of safe, uncontaminated drinking water to children around the world. ",
         "bg_color": "#0052ff26",
         "font_color":"#0052FF",
         "font_bg":"#0052ff33",
+        "overlay":"#0b0b0b80",
         "category": "Health"
     },
     {
         "id": 2,
         "img": "https://i.ibb.co/KyW8SPB/education.jpg",
         "title": "Good education",
+        "description":"A good education is a fundamental foundation for personal and societal growth and development. It encompasses a wide range of experiences, practices, and principles aimed at nurturing the intellectual, emotional, social, and physical growth of individuals.",
         "bg_color": "#ff444a26",
         "font_color":"#FF444A",
         "font_bg":"#ff444a33",
+        "overlay":"#0b0b0b80",
         "category": "Education"
     },
     {
         "id": 3,
         "img": "https://i.ibb.co/5K8j49q/clothing.jpg",
         "title": "Used Clothing Drive",
+        "description":"Used clothing refers to clothing items that have been previously owned or worn by individuals and are then made available for resale or donation. These items can vary widely in terms of style, condition, and quality, and they play a significant role in the global clothing market and sustainable fashion practices. ",
         "bg_color": "#79c23f26",
         "font_color":"#79C23F",
         "font_bg":"#79c23f33",
+        "overlay":"#0b0b0b80",
         "category": "Clothing"
     },
     {
         "id": 4,
         "img": "https://i.ibb.co/sJ5bmzq/food.jpg",
         "title": "Better Food for Everyone",
+        "description" :"Represents a holistic and inclusive approach to the global food system, aiming to provide improved access to nutritious, sustainable, and affordable food for people around the world. This concept encompasses a wide range of initiatives, policies, and practices that address various aspects of food production, distribution, and consumption.",
         "bg_color": "#f8714726",
         "font_color":"#F87147",
         "font_bg":"#f8714733",
+        "overlay":"#0b0b0b80",
         "category": "Food"
     },
     {
         "id": 5,
         "img": "https://i.ibb.co/sJ5bmzq/food.jpg",
-        "title": "Clean water for childrene",
-        "bg_color": "#ff444a26",
-        "font_color":"#FF444A",
-        "font_bg":"#ff444a33",
+        "title": "Better Food for Everyone",
+        "description" :"Represents a holistic and inclusive approach to the global food system, aiming to provide improved access to nutritious, sustainable, and affordable food for people around the world. This concept encompasses a wide range of initiatives, policies, and practices that address various aspects of food production, distribution, and consumption.",
+        "bg_color": "#f8714726",
+        "font_color":"#F87147",
+        "font_bg":"#f8714733",
+        "overlay":"#0b0b0b80",
         "category": "Food"
-        
     },
     {
         "id": 6,
         "img": "https://i.ibb.co/5K8j49q/clothing.jpg",
-        "title": "Good education",
-        "bg_color": "#ff444a26",
-        "font_color":"#FF444A",
-        "font_bg":"#ff444a33",
-        "category": "Education"
+        "title": "Used Clothing Drive",
+        "description":"Used clothing refers to clothing items that have been previously owned or worn by individuals and are then made available for resale or donation. These items can vary widely in terms of style, condition, and quality, and they play a significant role in the global clothing market and sustainable fashion practices. ",
+        "bg_color": "#79c23f26",
+        "font_color":"#79C23F",
+        "font_bg":"#79c23f33",
+        "overlay":"#0b0b0b80",
+        "category": "Clothing"
     },
     {
         "id": 7,
         "img": "https://i.ibb.co/KyW8SPB/education.jpg",
-        "title": "Used Clothing Drive",
-        "bg_color": "#79c23f26",
-        "font_color":"#79C23F",
-        "font_bg":"#79c23f33",
-        "category": "Clothing"
+        "title": "Good education",
+        "description":"A good education is a fundamental foundation for personal and societal growth and development. It encompasses a wide range of experiences, practices, and principles aimed at nurturing the intellectual, emotional, social, and physical growth of individuals.",
+        "bg_color": "#ff444a26",
+        "font_color":"#FF444A",
+        "font_bg":"#ff444a33",
+        "overlay":"#0b0b0b80",
+        "category": "Education"
     },
     {
         "id": 8,
         "img": "https://i.ibb.co/hmQbMv3/water.jpg",
-        "title": "Better Food for Everyone",
+        "title": "Clean water for children",
+        "description":"Clean water for children is a phrase that encapsulates a critical aspect of child well-being and global health. It refers to the provision of safe, uncontaminated drinking water to children around the world. ",
         "bg_color": "#0052ff26",
         "font_color":"#0052FF",
         "font_bg":"#0052ff33",
+        "overlay":"#0b0b0b80",
         "category": "Health"
     },
     {
         "id": 9,
         "img": "https://i.ibb.co/hmQbMv3/water.jpg",
         "title": "Clean water for children",
+        "description":"Clean water for children is a phrase that encapsulates a critical aspect of child well-being and global health. It refers to the provision of safe, uncontaminated drinking water to children around the world. ",
         "bg_color": "#0052ff26",
         "font_color":"#0052FF",
         "font_bg":"#0052ff33",
+        "overlay":"#0b0b0b80",
         "category": "Health"
     },
     {
         "id": 10,
         "img": "https://i.ibb.co/KyW8SPB/education.jpg",
         "title": "Good education",
+        "description":"A good education is a fundamental foundation for personal and societal growth and development. It encompasses a wide range of experiences, practices, and principles aimed at nurturing the intellectual, emotional, social, and physical growth of individuals.",
         "bg_color": "#ff444a26",
         "font_color":"#FF444A",
         "font_bg":"#ff444a33",
+        "overlay":"#0b0b0b80",
         "category": "Education"
     },
     {
         "id": 11,
         "img": "https://i.ibb.co/5K8j49q/clothing.jpg",
         "title": "Used Clothing Drive",
+        "description":"Used clothing refers to clothing items that have been previously owned or worn by individuals and are then made available for resale or donation. These items can vary widely in terms of style, condition, and quality, and they play a significant role in the global clothing market and sustainable fashion practices. ",
         "bg_color": "#79c23f26",
         "font_color":"#79C23F",
         "font_bg":"#79c23f33",
+        "overlay":"#0b0b0b80",
         "category": "Clothing"
     },
     {
         "id": 12,
         "img": "https://i.ibb.co/sJ5bmzq/food.jpg",
         "title": "Better Food for Everyone",
+        "description" :"Represents a holistic and inclusive approach to the global food system, aiming to provide improved access to nutritious, sustainable, and affordable food for people around the world. This concept encompasses a wide range of initiatives, policies, and practices that address various aspects of food production, distribution, and consumption.",
         "bg_color": "#ff444a26",
         "font_color":"#FF444A",
         "font_bg":"#ff444a33",
+        "overlay":"#0b0b0b80",
         "category": "Food"
     }
 ]

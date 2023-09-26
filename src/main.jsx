@@ -10,15 +10,19 @@ import MainLayout from './componants/MainLayout/MainLayout';
 import Home from './componants/Home/Home';
 import Donation from './componants/Donation/Donation';
 import Statistics from './componants/Statistics/Statistics';
+import ErrorPage from './componants/ErrorPage/ErrorPage';
+import DetailsOfCards from './componants/DetailsOfCards/DetailsOfCards';
+
 
 const router = createBrowserRouter([
   {
     path: "/",
     element: <MainLayout></MainLayout>,
+    errorElement:<ErrorPage></ErrorPage>,
     children:[
       {
         path:'/',
-        loader:()=> fetch('data.json'),
+        loader:()=> fetch('/data.json'),
         element: <Home></Home>
       },
       {
@@ -30,7 +34,9 @@ const router = createBrowserRouter([
         element:<Statistics></Statistics>
       },
       {
-        
+        path:'/cards/:id',
+        element: <DetailsOfCards></DetailsOfCards>,
+        loader:()=> fetch('/data.json')
       }
     ]
   },

@@ -7,7 +7,7 @@ const Banner = () => {
             <h2 className=" text-4xl font-bold">I Grow By Helping People In Need</h2> <br />
             <div>
                 <input className="p-2 rounded-l-md text-sm" type="text" placeholder="Search here...." />
-                <button className="bg-[#FF444A] p-2 rounded-r-md text-white text-sm font-semibold">Search</button>
+                <button className="bg-[#FF444A] p-2 rounded-r-md text-white text-sm font-medium">Search</button>
             </div>
         </div>
     </div>
