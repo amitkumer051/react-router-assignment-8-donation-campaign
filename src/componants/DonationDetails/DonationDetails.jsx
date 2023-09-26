@@ -1,6 +1,7 @@
+import { Link } from "react-router-dom";
 
 const DonationDetails = ({ card }) => {
-    const { img, title, category, donate, bg_color, font_color, font_bg } = card;
+    const { id,img, title, category, donate, bg_color, font_color, font_bg } = card;
     console.log(card);
     return (
         <>
@@ -14,9 +15,9 @@ const DonationDetails = ({ card }) => {
                     </div>
                     <h2 className="text-xl font-semibold">{title}</h2>
                     <p style={{ color: font_color }} className="text-sm font-semibold">{donate}</p>
-                    <div>
+                    <Link to={`/cards/${id}`}>
                         <button style={{ backgroundColor: font_color }} className="mt-2 p-1 px-2 text-base font-semibold rounded-md text-white">View Details</button>
-                    </div>
+                    </Link>
                 </div>
             </div>
         </>
