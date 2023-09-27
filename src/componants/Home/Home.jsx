@@ -5,11 +5,9 @@ import Cards from "../Cards/Cards";
 
 const Home = () => {
     const cards =useLoaderData()
-    // console.log(cards);
     return (
       <>
-      <Banner></Banner>
-      <Cards cards={cards}></Cards>
+      <Banner cards={cards}></Banner>
       </>
     );
 };
