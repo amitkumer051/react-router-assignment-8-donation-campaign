@@ -9,7 +9,6 @@ const Donation = () => {
 
     useEffect(() => {
         const donationItems = JSON.parse(localStorage.getItem('donation'));
-
         if (donationItems) {
             setDonation(donationItems)
         }
@@ -24,10 +23,14 @@ const Donation = () => {
                         noData ? <p className="items-center text-center mt-20 text-2xl ">{noData}</p> :
                             <>
                                 <div className="grid md:grid-cols-2 gap-5 lg:grid-cols-2 mb-8 mt-4">
-                                    {donation.slice(0, cardlength).map(card => <DonationDetails key={card.id} card={card}></DonationDetails>)}
+                                    {
+                                    donation.slice(0, cardlength).map(card => <DonationDetails key={card.id} card={card}></DonationDetails>)
+                                    }
                                 </div>
-                                <div className={`mb-5 mt-2 text-center ${cardlength === donation.length && 'hidden'}`}>
-                                    <button onClick={() => setCardLength(donation.length)} className="mt-2 p-2 px-4 text-base font-semibold bg-green-800 rounded-md text-white">See All</button>
+                                <div className={`mb-5 mt-2 text-center ${cardlength == donation.length && 'hidden'}`}>
+                                   {donation.length > 4 &&
+                                     <button onClick={() => setCardLength(donation.length)} className="mt-2 p-2 px-4 text-base font-semibold bg-green-800 rounded-md text-white">See All</button>
+                                   }
                                 </div>
                             </>
                     }
